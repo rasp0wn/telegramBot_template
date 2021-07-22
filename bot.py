@@ -14,7 +14,7 @@ def main():
 	updater=Updater(TOKEN, use_context=True)
 	dp=updater.dispatcher
 
-	# Events hanbdler, send /start and the bot answer you
+	# Events hanbdler, send /start and the bot answers you
 	dp.add_handler(CommandHandler('start',	start))
 
 	# Start bot
